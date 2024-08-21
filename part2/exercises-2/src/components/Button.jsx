@@ -1,9 +1,12 @@
 import './styles.css';
 
 function Button() {
+   function onLearnMore(){
+      alert("crash crackle woosh");
+   }
 
    return ( 
-         <button>
+         <button onClick={onLearnMore}>
             Learn More
          </button>
    );
